@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bhavanimotorsdbModelStoreContainer" CdmEntityContainer="bhavanimotorsdbEntities">
+    <EntitySetMapping Name="tests">
+      <EntityTypeMapping TypeName="bhavanimotorsdbModel.test">
+        <MappingFragment StoreEntitySet="test">
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
